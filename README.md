@@ -2,7 +2,7 @@
 
 **Adasa** is an Arabic photography journal that brings together practical guides, visual inspiration, and stories to help photographers develop their skills and see the world from new perspectives.
 
-**Live Demo:** [Open Adasa](https://ahmedsarhan372.github.io/Adasa/)
+**Live Demo:** [Open Adasa](https://ahmedsarhan372.github.io/Adasa/?v=20261118)
 
 ## About the Project
 
