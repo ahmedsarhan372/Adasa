@@ -1,44 +1,50 @@
-# عدسة | مجلة التصوير الفوتوغرافي
+# Adasa — Photography Journal
 
-**عدسة** مساحة عربية لعشّاق التصوير، تجمع المقالات العملية والإلهام البصري لمساعدة المصورين على تطوير مهاراتهم ورؤية العالم من زوايا جديدة.
+**Adasa** is an Arabic photography journal that brings together practical guides, visual inspiration, and stories to help photographers develop their skills and see the world from new perspectives.
 
-## عن المشروع
+**Live Demo:** [Open Adasa](https://ahmedsarhan372.github.io/Adasa/)
 
-واجهة مجلة ومدونة عربية باتجاه RTL، تعرض مقالات التصوير حسب الموضوع والكاتب، مع صفحات للمقالات والتعريف بالمجلة. المحتوى التجريبي محفوظ في `src/data/posts.json`.
+## About the Project
 
-## المميزات
+A responsive, right-to-left (RTL) photography magazine and blog. Browse featured stories, explore articles by category or author, and read dedicated article pages. Sample content is stored in `src/data/posts.json`.
 
-- صفحة رئيسية بمقالات مختارة وأحدث المنشورات.
-- تصفح المقالات حسب التصنيف والكاتب.
-- صفحة مستقلة لكل مقال وصفحات «من نحن» والكتّاب.
-- تصميم عربي متجاوب مع دعم اتجاه الكتابة من اليمين إلى اليسار.
-- واجهة اشتراك بالنشرة الإخبارية للعرض التفاعلي.
+## Features
 
-## التقنيات
+- Featured stories and recent articles on the home page.
+- Browse posts by category and author.
+- Individual article pages, plus About and Authors pages.
+- Responsive Arabic RTL layout.
+- Newsletter subscription interface.
 
-- React 19 و JSX
+## Tech Stack
+
+- React 19 and JSX
 - Vite 7
 - React Router 7
 - Bootstrap 5
 - Font Awesome
 
-## التشغيل محلياً
+## Run Locally
 
-يتطلب المشروع Node.js و npm.
+Requires Node.js and npm.
 
 ```bash
 npm install
 npm run dev
 ```
 
-لبناء نسخة الإنتاج:
+Create and preview a production build:
 
 ```bash
 npm run build
 npm run preview
 ```
 
-## الاسم والتقديم
+## Deployment
 
-الاسم المعروض: **عدسة | مجلة التصوير الفوتوغرافي**  
-الوصف المختصر: **مجلة عربية للتصوير؛ معرفة عملية، قصص بصرية، وإلهام للمصورين.**
+The project is deployed to GitHub Pages by GitHub Actions whenever changes are pushed to `main`. The Vite build uses the `/Adasa/` project path, and client-side routes are supported on refresh.
+
+## Project Presentation
+
+**Display name:** Adasa — Photography Journal  
+**Short introduction:** An Arabic photography journal featuring practical tutorials, inspiring stories, and a responsive RTL reading experience.
